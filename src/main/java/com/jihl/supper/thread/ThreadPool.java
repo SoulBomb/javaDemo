@@ -31,11 +31,14 @@ public class ThreadPool {
                     keepAliveTime,
                     unit,
                     workQueue,
-                    threadFactory,
+//                    threadFactory,
                     new ThreadPoolExecutor.AbortPolicy());
 
             for (int i = 0; i < 8; i++) {
-                threadPoolExecutor.submit(MyThread::new);
+                int finalI = i;
+                threadPoolExecutor.submit(() -> {
+                    System.out.println(finalI);
+                });
             }
         } catch (Exception e) {
             e.printStackTrace();
