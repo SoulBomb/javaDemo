@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbdb988e-2558-4a48-9ba2-48240c64c72d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/CronTaskRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/DemoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/SchedulingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/SchedulingRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/schedul/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jihl/supper/test/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/test/MyTest.java" afterDir="false" />
     </list>
@@ -53,6 +60,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -101,7 +109,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testThread">
+  <component name="RunManager" selected="JUnit.MyTest.testHaveParamsTask">
     <configuration name="ClassCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jihl.supper.util.ClassCast" />
       <module name="supper" />
@@ -126,6 +134,38 @@
       <option name="PACKAGE_NAME" value="com.jihl.supper.test" />
       <option name="MAIN_CLASS_NAME" value="com.jihl.supper.test.MyTest" />
       <option name="METHOD_NAME" value="cC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testHaveParamsTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jihl.supper.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jihl.supper.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jihl.supper.test.MyTest" />
+      <option name="METHOD_NAME" value="testHaveParamsTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="supper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jihl.supper.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jihl.supper.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jihl.supper.test.MyTest" />
+      <option name="METHOD_NAME" value="testTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,6 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.testHaveParamsTask" />
+        <item itemvalue="JUnit.MyTest.testTask" />
         <item itemvalue="JUnit.MyTest.testThread" />
         <item itemvalue="JUnit.MyTest.cC" />
         <item itemvalue="Application.ClassCast" />
@@ -202,6 +244,8 @@
       <workItem from="1623742386707" duration="1531000" />
       <workItem from="1623808038061" duration="38000" />
       <workItem from="1623811880234" duration="482000" />
+      <workItem from="1625644420338" duration="112000" />
+      <workItem from="1627282578754" duration="3842000" />
     </task>
     <task id="LOCAL-00001" summary="TK">
       <created>1619576544238</created>
@@ -224,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619683609206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试用例导包">
+      <created>1625644482423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625644482423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,19 +291,20 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619493841233" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1619580454296">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1627285175753">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619580454296" />
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627285175753" />
     <state x="389" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619682259177">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="199" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619682259177" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1623744303473">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1625644481536">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619683608277" />
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1623744303473" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1625644481536" />
     <state x="235" y="59" key="DiffContextDialog" timestamp="1625644470195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -262,26 +314,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="85" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619576479630" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom" timestamp="1623812365445">
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom" timestamp="1627286053092">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="139" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1620984281459" />
-    <state width="1237" height="150" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1623812365445" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center" timestamp="1623812365444">
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627286053092" />
+    <state width="1237" height="226" key="GridCell.Tab.0.center" timestamp="1627286053092">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="139" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1620984281459" />
-    <state width="1237" height="150" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1623812365444" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left" timestamp="1623812365444">
+    <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627286053092" />
+    <state width="1237" height="226" key="GridCell.Tab.0.left" timestamp="1627286053091">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="139" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1620984281459" />
-    <state width="1237" height="150" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1623812365444" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right" timestamp="1623812365444">
+    <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627286053091" />
+    <state width="1237" height="226" key="GridCell.Tab.0.right" timestamp="1627286053092">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="139" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1620984281459" />
-    <state width="1237" height="150" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1623812365444" />
+    <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627286053092" />
     <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1620700833086">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -331,10 +383,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="453" y="194" key="git4idea.ui.GitTagDialog/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619576778611" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1619581440750">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="297" y="160" key="run.anything.popup" timestamp="1627285462424">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1619581440750" />
+    <state x="297" y="160" key="run.anything.popup/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627285462424" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1620467558826">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
