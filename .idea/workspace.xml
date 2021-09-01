@@ -10,9 +10,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/handle_service/WorkInterface.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/handle_service/doctor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jihl/supper/handle_service/programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jihl/supper/SupperApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jihl/supper/SupperApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jihl/supper/SupperApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jihl/supper/SupperApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +278,7 @@
       <workItem from="1629167462527" duration="346000" />
       <workItem from="1629707328733" duration="22000" />
       <workItem from="1629874335119" duration="157000" />
-      <workItem from="1630487116723" duration="2290000" />
+      <workItem from="1630487116723" duration="2566000" />
     </task>
     <task id="LOCAL-00001" summary="TK">
       <created>1619576544238</created>
@@ -325,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628591916238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="联系@Bean注解">
+      <created>1630489787002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630489787002</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,25 +353,26 @@
     <MESSAGE value="测试用例导包" />
     <MESSAGE value="动态定时任务" />
     <MESSAGE value="分发几口业务层" />
-    <option name="LAST_COMMIT_MESSAGE" value="分发几口业务层" />
+    <MESSAGE value="联系@Bean注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="联系@Bean注解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1628566742977">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1628566742977" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1630489735498">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1630489786190">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1630489735498" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1630489786190" />
     <state width="406" height="438" key="DebuggerActiveHint" timestamp="1627983590045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="406" height="438" key="DebuggerActiveHint/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1627983590045" />
-    <state x="235" y="59" key="DiffContextDialog" timestamp="1629874365810">
+    <state x="235" y="59" key="DiffContextDialog" timestamp="1630489759364">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="235" y="59" key="DiffContextDialog/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1629874365810" />
+    <state x="235" y="59" key="DiffContextDialog/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1630489759364" />
     <state width="1237" height="238" key="GridCell.Tab.0.bottom" timestamp="1630489729770">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -428,18 +433,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="82" key="Vcs.Push.Dialog.v2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1628666994002" />
-    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628665480336">
+    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630489833867">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1628665480336" />
+    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1630489833867" />
     <state x="332" y="115" width="617" height="490" key="find.popup" timestamp="1628565979917">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="332" y="115" width="617" height="490" key="find.popup/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1628565979917" />
-    <state x="435" y="151" key="git4idea.merge.GitPullDialog" timestamp="1628666332719">
+    <state x="435" y="151" key="git4idea.merge.GitPullDialog" timestamp="1630489822591">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="435" y="151" key="git4idea.merge.GitPullDialog/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1628666332719" />
+    <state x="435" y="151" key="git4idea.merge.GitPullDialog/0.0.1280.720/1920.0.1536.864@0.0.1280.720" timestamp="1630489822591" />
     <state x="282" y="87" width="700" height="530" key="recent.locations.popup" timestamp="1628565816622">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
