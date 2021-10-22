@@ -139,12 +139,9 @@ public class CglibMethodInterceptor implements MethodInterceptor, ApplicationCon
     }
 
     public <T> T generateClass(Class<T> cla) {
-        //设置需要代理的子类
-        Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(cla);
-        enhancer.setCallback(this);
+        //设置需要代理对象
+        Object obj = Enhancer.create(cla, this);
         //代理对象存入临时缓存
-        Object obj = enhancer.create();
         String name = obj.getClass().getName();
         MAP.put(name, cla);
         return cla.cast(obj);
